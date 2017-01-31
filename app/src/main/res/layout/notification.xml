@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+
+       android:orientation="vertical"
+          android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+        >
+        <TextView
+            android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+            android:textStyle="bold"
+        android:text="Notification Settings"
+
+        />
+        <TextView
+            android:layout_marginTop="15dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:text="Current Selected"
+
+            />
+        
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="55dp"
+
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/ccourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course" />
+
+        <TextView
+
+            android:id="@+id/nncourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="B.com"
+            android:textColor="#b39140" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/ccsem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Sem" />
+
+        <TextView
+            android:id="@+id/nnsem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="result"
+            android:textColor="#7b5801" />
+        </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#afe0e7"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <TextView
+
+        android:layout_marginTop="25dp"
+        android:id="@+id/additional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="choose if you want to more Semester details " />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="5">
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/cb1"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="s1"
+            />
+
+        <CheckBox
+             android:layout_weight="1"
+            android:id="@+id/cb2"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            
+           
+            android:text="s4" />
+
+        <CheckBox
+             android:layout_weight="1"
+            android:id="@+id/cb3"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="s2" />
+
+        <CheckBox
+             android:layout_weight="1"
+            android:id="@+id/cb4"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            
+            android:text="s3" />
+         <CheckBox
+              android:layout_weight="1"
+            android:id="@+id/cb5"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            
+            android:text="s3" />
+    </LinearLayout>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#afe0e7"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView1"
+        android:textColor="#010606"
+        android:textStyle="bold"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:background="#afe0e7"
+        android:layout_gravity="center"
+        android:id="@+id/upok"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudentSpot</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+ <string-array name="link">
+        <item>http://finalfantasy.wikia.com/wiki/Sephiroth_(Crisis_Core_Boss)</item>
+        <item>http://finalfantasy.wikia.com/wiki/Kefka_Palazzo</item>
+        <item>http://finalfantasy.wikia.com/wiki/Exdeath_(Boss)</item>
+        <item>http://finalfantasy.wikia.com/wiki/Kefka_Palazzo</item>
+        <item>http://finalfantasy.wikia.com/wiki/Exdeath_(Boss)</item><item>http://finalfantasy.wikia.com/wiki/Kefka_Palazzo</item>
+        <item>http://finalfantasy.wikia.com/wiki/Exdeath_(Boss)</item><item>http://finalfantasy.wikia.com/wiki/Kefka_Palazzo</item>
+        <item>http://finalfantasy.wikia.com/wiki/Exdeath_(Boss)</item><item>http://finalfantasy.wikia.com/wiki/Kefka_Palazzo</item>
+        <item>http://finalfantasy.wikia.com/wiki/Exdeath_(Boss)</item>
+    </string-array>
+</resources>
